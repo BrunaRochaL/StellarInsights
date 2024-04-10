@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Stellar Insights
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Instellar Insights é um projeto inovador desenvolvido para a disciplina de BackEnd, com o intuito de demonstrar a aplicação prática dos conhecimentos adquiridos em sala de aula. Este projeto integra várias APIs de terceiros para fornecer informações atualizadas sobre a NASA e SpaceX entregando uma experiência única e educativa sobre o espaço e tecnologia espacial.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Imagem do Dia pela NASA**: Diariamente, apresentamos a imagem do dia fornecida pela NASA, acompanhada de uma descrição detalhada.
+- **Detalhes sobre Foguetes da SpaceX**: Explore informações detalhadas sobre os foguetes da SpaceX, incluindo especificações técnicas e histórico de lançamentos.
+- **Portos de Lançamento**: Descubra os portos de lançamento ativos da SpaceX, com detalhes sobre cada localização.
+- **Navegação Suave**: Implementamos uma rolagem suave entre as seções da aplicação para uma experiência de usuário fluida e intuitiva.
 
-### `npm start`
+## Criatividade e Originalidade
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Acreditamos que a originalidade do Instellar Insights reside na sua capacidade de integrar várias fontes de dados relevantes e apresentá-las de forma coesa e interativa. Utilizamos animações sutis, uma navegação intuitiva, e um design que remete ao tema espacial para capturar o interesse do usuário.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Qualidade do Código
 
-### `npm test`
+Nosso código segue as melhores práticas de desenvolvimento, com componentes reutilizáveis, gestão eficiente de estados e efeitos, e um tratamento cuidadoso de erros para garantir que os usuários tenham uma experiência suave e estável.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tratamento de Erros
 
-### `npm run build`
+Implementamos um robusto sistema de tratamento de erros para lidar com problemas de rede, dados incorretos, ou falhas na API. Isso inclui mensagens de erro claras e fallbacks para garantir que a aplicação continue funcional mesmo quando dados externos falham.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Apresentação de Dados
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Os dados recebidos das APIs são apresentados de forma clara, legível e envolvente. Nos esforçamos para formatar os dados de maneira que facilitem a compreensão e proporcionem insights valiosos para os usuários.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## APIs de Terceiros Utilizadas
 
-### `npm run eject`
+- **NASA API**: Para a imagem do dia e informações espaciais.
+- **SpaceX API**: Para dados sobre foguetes e portos de lançamento.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Como Executar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone este repositório:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/seuusuario/StellarInsights.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Clone este repositório:
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Clone este repositório:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
 
-### Code Splitting
+A aplicação estará disponível em http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Contribuição
 
-### Analyzing the Bundle Size
+Este projeto é um trabalho em equipe para a avaliação N1, e estamos abertos a feedbacks e contribuições para melhorar ainda mais nossa aplicação. Fique à vontade para abrir issues ou enviar pull requests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Apresentação
 
-### Making a Progressive Web App
+O grupo responsável pela aplicação NasaSpaceXInfo apresentará o projeto na próxima aula, demonstrando suas funcionalidades, design, e os desafios enfrentados durante o desenvolvimento.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido com ❤ por Bruna, Heloiza e Érika.

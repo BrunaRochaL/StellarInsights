@@ -18,21 +18,16 @@ body,
   z-index: 99999;
   cursor: pointer;
   display: flex;
-  justify-content: center; /* Centraliza o menu horizontalmente */
+  justify-content: center;
   list-style: none;
-  position: fixed; /* Alterado de absolute para fixed */
-  top: 50px; /* Mantém o menu a 50px do topo da tela */
-  right: 100px; /* Posiciona o menu a 100px da direita da tela */
+  position: fixed;
+  top: 50px;
+  right: 100px;
   padding: 0;
   margin: 0;
-  border: 2px solid white; /* Cria a borda ao redor do contêiner do menu */
-  border-radius: 10px; /* Arredonda as bordas */
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Adiciona um fundo semitransparente ao menu */
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .menu-item {
